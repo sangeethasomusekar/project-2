@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: myproj
-        image: sagarintellipaat/project2
+        image: prsdocker123/proj2
         ports:
         - containerPort: 80
