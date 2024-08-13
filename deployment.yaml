@@ -1,21 +1,22 @@
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-deployment
+  name: nginx-deployment
   labels:
-    app: new
+    app: nginx
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: new
+      app: nginx
   template:
     metadata:
       labels:
-        app: new
+        app: nginx
     spec:
       containers:
-      - name: my-container
-        image: prsdocker123/proj2
+      - name: myproj
+        image: sagarintellipaat/project2
         ports:
         - containerPort: 80
