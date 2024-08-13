@@ -8,5 +8,5 @@ spec:
      app: new
   ports:
     - protocol: TCP
-      targetPort: 80
+      Port: 80
       nodePort: 30008
