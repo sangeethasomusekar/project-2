@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-deployment
+  name: new-deployment
   labels:
     app: new
 spec:
@@ -16,7 +16,7 @@ spec:
         app: new
     spec:
       containers:
-      - name: my-container
+      - name: new-container
         image: prsdocker123/proj2
         ports:
         - containerPort: 80
