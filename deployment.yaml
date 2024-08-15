@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: new-deployment
+  name: my-deployment
   labels:
     app: new
 spec:
