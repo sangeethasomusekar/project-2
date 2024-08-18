@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: new-container
-        image: prsdocker123/proj2
+        image: prsdocker123/project2
         ports:
         - containerPort: 80
